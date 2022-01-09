@@ -1,0 +1,23 @@
+:py:mod:`ghibli_films`
+======================
+
+.. py:module:: ghibli_films
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   ghibli_films/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

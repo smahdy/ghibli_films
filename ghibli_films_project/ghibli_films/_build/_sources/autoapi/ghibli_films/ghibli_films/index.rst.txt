@@ -1,0 +1,69 @@
+:py:mod:`ghibli_films.ghibli_films`
+===================================
+
+.. py:module:: ghibli_films.ghibli_films
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   ghibli_films.ghibli_films.get_film
+   ghibli_films.ghibli_films.get_rating
+   ghibli_films.ghibli_films.get_summary
+
+
+
+.. py:function:: get_film(title)
+
+   Returns information on Studio Ghibli films in sentence format.
+
+   :param title:
+   :type title: title of a film. (str)
+
+   :returns:
+   :rtype: Returns information on a given film, including the director, producer, release year, run time, and film's pronunciation in Japanese. (str)
+
+   .. rubric:: Example
+
+   >>> get_film(title='Princess Mononoke')
+   >>>Princess Mononoke, directed by Hayao Miyazaki and produced by Toshio Suzuki, was release in 1997 with a run time of 134 minutes. The original title in Japanese, もののけ姫, is pronounced Mononoke hime.
+
+
+.. py:function:: get_rating(title)
+
+   Returns the rating of Studio Ghibli film in sentence format.
+
+   :param title:
+   :type title: title of a film. (str)
+
+   :returns:
+   :rtype: Returns the Rotten Tomatoes score for a given film. (str)
+
+   .. rubric:: Example
+
+   >>>get_rating(title='Princess Mononoke')
+   >>>According to Rotten Tomatoes, Princess Mononoke earned a score of 92 designating it Fresh!
+
+
+.. py:function:: get_summary(title)
+
+   Returns a summary of a Studio Ghibli films in sentence format.
+
+   :param title:
+   :type title: title of a film. (str)
+
+   :returns:
+   :rtype: Returns a summary of a given film. (str)
+
+   .. rubric:: Example
+
+   >>> get_film(title='Princess Mononoke')
+   >>>Princess Mononoke, directed by Hayao Miyazaki and produced by Toshio Suzuki, was release in 1997 with a run time of 134 minutes. The original title in Japanese, もののけ姫, is pronounced Mononoke hime.
+
+
